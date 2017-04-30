@@ -14,16 +14,16 @@ The following [IPython notebook](http://nbviewer.ipython.org/github/markdregan/K
 
 <img src="http://i.imgur.com/XMYKwS4.png">
 
-####Human Activity Recognition Dataset
+#### Human Activity Recognition Dataset
 The Human Activity Recognition Dataset (HAR) dataset is chosen to test the classification performance of DTW & KNN [3].
 
 > The experiments were carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (walking, walking upstairs, walking downstairs, sitting, standing and laying) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually.
 
-####References
+#### References
 1.  Mitsa (2010). Temporal Data Mining (Chapter on Temporal Classification).
 2.  Xi (2006). Fast Time Series Classification Using Numerosity Reduction.
 3.  Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012. [Read Paper](http://arxiv.org/pdf/1401.8212.pdf)
 
-####Credit
+#### Credit
 -  The progressbar used in the `DtwKnn()` class was taken from PYMC
 -  The matplotlib style and IPython notebook was taken from Cameron Davidson-Pilon's excelent ["Bayesian Methods for Hackers"](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
